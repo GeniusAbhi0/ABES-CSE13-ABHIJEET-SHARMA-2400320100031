@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgistration Form</title>
+</head>
+<body bgcolor="1B446C" align="center">
+    <form action="/submit_form" method="post">
+        <h1><u>Registration Form</u></h1>
+        <table align="center" cellpadding="15" cellspacing="0" border="2" bordercolor="#ffffff" bgcolor="1B446C" width="30%" >
+       <tr>
+        <td><font color="White" size="2" face="georgia"><b>Full Name:</b></font></td>
+        <td><input type="text" name="name" id="name" required></td>
+        </tr>
+        
+        <tr>
+        <td><font color="white" size="2" face="georgia" ><b>Date of Birth:</b></font></td>
+        <td><input type="date" name="dob" id="dob" style="width: 165px;" required></td>
+        </tr>
+
+        <tr>
+        <td><font color="white" size="2" face="georgia"><b>Gender:</b></font></td>
+         <td>
+            <input type="radio" name="gender" id="male" ><font color="White"><b>Male</b></font>
+            <input type="radio" name="gender" id="female" ><font color="White"><b>Female</b></font>
+         </td>
+        </tr>
+
+        <tr>
+        <td><font color="white" size="2" face="georgia"><b>Phone No. :</b></font></td>
+        <td><input type="tel" name="phone" id="phone" required></td>
+        </tr>
+
+        <tr>
+        <td><font color="white" size="2" face="georgia"><b>Email:</b></font></td>
+        <td><input type="email" name="Email" id="email" required></td>
+        </tr>
+
+        <tr>
+        <td><font color="white" size="2" face="georgia"><b>Password:</b></font></td>
+        <td><input type="password" name="password" id="password" required></td>
+        </tr>
+
+        <tr>
+        <td><font color="white" size="2" face="georgia"><b>Confirm Password:</b></font></td>
+        <td><input type="password" name="password" id="Confirm" required></td>
+        </tr>
+
+        <tr>
+        <td><font color="white" size="2" face="georgia"><b>Hobbies:</b></font></td>
+        <td>
+            <input type="checkbox" name="hobbies" id="hobbies" value ="reading"><font color="White"><b>Reading</b></font>
+            <input type="checkbox" name="hobbies" id="hobbies" value ="Writing"><font color="White"><b>Writing</b></font>
+            <input type="checkbox" name="hobbies" id="hobbies" value ="Singing"><font color="White"><b>Singing</b></font>
+        </td>
+        </tr>
+
+        <tr>
+        <td><font color="white" size="2" face="georgia"><b>Course:</b></font></td>
+        <td>
+            <select name="course" id="course" required>
+                <option value="BCA"><b>BCA</b></option>
+                <option value="B.Tech"><b>B.Tech</b></option>
+                <option value="MCA"><b>MCA</b></option>
+                <option value="M.Tech"><b>M.Tech</b></option>
+            </select>
+        </td>
+        </tr>
+
+        <tr>
+        <td><font color="white" size="2" face="georgia"><b>Address:</b></font></td>
+        <td><textarea name="Address" id="address" cols="21" rows="5" required></textarea></td>
+        </tr>
+
+        <tr>
+        <td colspan="2" align="center">
+            <button type="submit"><font color="1B446C"><b>Submit</b></font></button>
+            <button type="reset"><font color="1B446C"><b>Reset</b></font></button>
+        </td>
+       </tr>
+       </table>
+        
+    </form>
+</body>
+</html>
